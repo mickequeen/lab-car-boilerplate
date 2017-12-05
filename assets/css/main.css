@@ -1,19 +1,31 @@
+/*
+reset de navegador
+*/
 *{
-	box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/*
+modificar navbar de bootstrap
+*/
 .navbar{
-	padding: 2em;
-	background-color: #FFF;
+  padding: 2em;
+  background-color: #FFF;
 }
 
+/*
+bajar el contenido central ya que nav esta fijo, dar color de letra a todo el contenido
+*/
 main{
-	padding-top: 7em;
-  color: #FFF;  
+  padding-top: 7em;
+  color: #FFF;
 }
 
+/*
+dar imagen de fondo a primera sección
+*/
 #car{
 	background-image: url(../images/taxi.jpg);
 	background-repeat: no-repeat;
@@ -24,6 +36,7 @@ main{
   
 }
 
+/*contenedor de sección de logeo*/
 .logIn{
   padding-top: 2em;
   padding-left: 3em;
@@ -31,10 +44,11 @@ main{
   background-color: #FFC107;
   float: right;
   margin-top: 13em;
-
-
 }
 
+/*
+estilos a letras
+*/
 .logIn h1{
   line-height: 0.9em;
 }
@@ -50,16 +64,25 @@ main{
   margin-right: 3em;
 }
 
+/*
+estilo a logo
+*/
 .logIn img{
   height: 1.5em;
   margin-bottom: 0.6em;
 }
 
+/*
+estilo a boton de logeo
+*/
 .logIn button{
   margin-top: 1em;
   border: none;
 }
 
+/*
+lineas decorativas
+*/
 .line{
   display: inline-block;
   border-bottom: 1px solid #FFF;
@@ -87,6 +110,9 @@ estilos a contenedor foto iphone
   border-bottom: 1px solid #FFF;
 }
 
+/*
+estilos a textos en contenedor de telefono
+*/
 .phone h2{
   display: inline-block;
   margin-bottom: 1em;
@@ -97,14 +123,20 @@ estilos a contenedor foto iphone
   margin-bottom: 1em;
 }
 
-.phone img{
-  padding-left: 3em;
-}
-
 .phone h3{
   text-align: center;
 }
 
+/*
+moviendo la imagen del telefono
+*/
+.phone img{
+  padding-left: 3em;
+}
+
+/*
+dando imagen de fondo a contenedor de conductor
+*/
 #driver{
   background-image: url(../images/conduce.jpg);
   height: 31em;
@@ -129,7 +161,7 @@ estilos, fondo opaco a seccion de texto en area conductor
 /*
 tamaño fuente seccion de conductor
 */
-#driverTxt p{
+#driverTxt p, #map p{
   font-size: 1.4em;
 }
 
@@ -140,6 +172,58 @@ estilos a boton de conductor
   border: none;
   background-color: #FFC107;
   color: #FFF;
+}
+
+#mapTxt{
+  padding-left: 7em;
+  line-height: 3em;
+  padding-bottom: 5em;
+}
+
+#mapTxt input{
+  margin-left: 1em;
+  width: 20em;
+  border-radius: 0.5em;
+  border: 1px solid #FFF;
+  background-color: #FFC107
+}
+
+#destiny{
+  padding-top: 3em;
+}
+
+#map button{
+  margin-top: 3em;
+  margin-left: 5em;
+  border: none;
+  font-weight: bolder;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 2em;
+}
+
+input::-webkit-input-placeholder {  
+  color: white; 
+  padding-left: 1em;
+} 
+
+/*
+posición del mapa
+*/
+#map{
+  padding-top: 3em;
+}
+
+/*
+tamaño mapa, linea exterior
+*/
+iframe{
+  padding: 0.5em;
+  border: 1px solid #FFF;
+  height: 34em;
+  width: 80%;
+  margin-bottom: 2.5em;
 }
 
 /*
@@ -153,6 +237,11 @@ condiciones
   }
   .phone img{
     padding-left: 0;
+    width: ;
+  }
+  iframe{
+    height: 30em;
+    width: 100%;
   }
 }
 
