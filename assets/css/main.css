@@ -18,13 +18,13 @@ main{
 	background-size: cover;
 	height: 50em;
 	width: 100%;
-	background-position: center 90%;
+	background-position: center 92%;
   
 }
 
 .logIn{
   padding-top: 2em;
-  padding-left: 2em;
+  padding-left: 3em;
   padding-bottom: 2em;
   background-color: #FFC107;
   float: right;
@@ -50,6 +50,7 @@ main{
 
 .logIn img{
   height: 1.5em;
+  margin-bottom: 0.6em;
 }
 
 .logIn button{
@@ -63,4 +64,55 @@ main{
   width: 8em;
 }
 
+/*
+clase para contedores de info
+*/
+.orange{
+  background-color: #FFC107;
+  height: 38em;
+  width: 100%;
+}
 
+/*
+estilos a contenedor foto iphone
+*/
+.phone{
+  margin-top: 3em;
+  padding: 2em;
+  border-top: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+.phone h2{
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.phone p{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.phone img{
+  padding-left: 3em;
+}
+
+.phone h3{
+  text-align: center;
+}
+/*
+condiciones
+*/
+@media(min-width: 320px) and (max-width: 800px){
+  .phone{
+    margin-left: 1em;
+    border-left: 1px solid #FFF;
+  }
+  .phone img{
+    padding-left: 0;
+  }
+  .orange{
+    height: auto;
+  }
+}
