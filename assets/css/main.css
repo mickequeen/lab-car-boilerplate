@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+
+.navbar{
+	padding: 2em;
+	background-color: #FFF;
+}
+
+main{
+	padding-top: 7em;
+  color: #FFF;
+}
+
+#car{
+	background-image: url(../images/taxi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50em;
+	width: 100%;
+	background-position: center 90%;
+  
+}
+
+.logIn{
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  background-color: #FFC107;
+  float: right;
+  margin-top: 13em;
+
+
+}
+
+.logIn h1{
+  line-height: 0.9em;
+}
+
+.logIn h3{
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.logIn h4{
+  display: inline-block;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.logIn img{
+  height: 1.5em;
+}
+
+.logIn button{
+  margin-top: 1em;
+  border: none;
+}
+
+.line{
+  display: inline-block;
+  border-bottom: 1px solid #FFF;
+  width: 8em;
+}
+
+
