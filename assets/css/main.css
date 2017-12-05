@@ -1,5 +1,7 @@
 *{
 	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar{
@@ -9,7 +11,7 @@
 
 main{
 	padding-top: 7em;
-  color: #FFF;
+  color: #FFF;  
 }
 
 #car{
@@ -69,7 +71,7 @@ clase para contedores de info
 */
 .orange{
   background-color: #FFC107;
-  height: 38em;
+  height: auto;
   width: 100%;
 }
 
@@ -77,7 +79,8 @@ clase para contedores de info
 estilos a contenedor foto iphone
 */
 .phone{
-  margin-top: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   padding: 2em;
   border-top: 1px solid #FFF;
   border-right: 1px solid #FFF;
@@ -101,18 +104,55 @@ estilos a contenedor foto iphone
 .phone h3{
   text-align: center;
 }
+
+#driver{
+  background-image: url(../images/conduce.jpg);
+  height: 31em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+/*
+estilos, fondo opaco a seccion de texto en area conductor
+*/
+#driverTxt{
+  padding-left: 3em;
+  padding-top: 7em;
+  height: 31em;
+  float: right;
+  background-color: rgba(0000,0,0,0.5);
+  padding-right: 0;
+}
+
+/*
+tamaño fuente seccion de conductor
+*/
+#driverTxt p{
+  font-size: 1.4em;
+}
+
+/*
+estilos a boton de conductor
+*/
+#driverTxt button{
+  border: none;
+  background-color: #FFC107;
+  color: #FFF;
+}
+
 /*
 condiciones
 */
 @media(min-width: 320px) and (max-width: 800px){
   .phone{
+    padding-left: 0.5em;
     margin-left: 1em;
     border-left: 1px solid #FFF;
   }
   .phone img{
     padding-left: 0;
   }
-  .orange{
-    height: auto;
-  }
 }
+
