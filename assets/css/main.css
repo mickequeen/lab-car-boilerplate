@@ -175,11 +175,15 @@ estilos a boton de conductor
 }
 
 #mapTxt{
+  padding-top: 3em;
   padding-left: 7em;
   line-height: 3em;
   padding-bottom: 5em;
 }
 
+#mapTxt h2{
+  font-weight: bold;
+}
 #mapTxt input{
   margin-left: 1em;
   width: 20em;
@@ -242,6 +246,9 @@ condiciones
   iframe{
     height: 30em;
     width: 100%;
+  }
+  #mapTxt{
+    padding-left: 3em;
   }
 }
 
