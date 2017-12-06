@@ -324,5 +324,8 @@ condiciones para menor resolucion (xs y sm)
   .icon{
     margin:0.1em;
   }
+  .navbar-toggle{
+    float: left;
+  }
 }
 
