@@ -289,6 +289,18 @@ footer a{
   color: #FFF;
   font-size: 1.2em;
 }
+
+.submit{
+  background-color: #FFC107;
+}
+
+#login_username{
+  margin-bottom: 2em;
+}
+
+#rememberMe{
+  color: #000;
+}
 /*
 condiciones para menor resolucion (xs y sm)
 */
